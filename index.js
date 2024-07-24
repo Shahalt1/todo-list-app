@@ -5,7 +5,7 @@ const todoList = [
 ];
 function renderTodoList() {
   let todolistHTML = "";
-  todoList.forEach(function (todoObject, index) {
+  todoList.forEach((todoObject, index) =>{
     const { name, due } = todoObject;
     const html = `<div>${name}</div>
     <div>${due}</div>
